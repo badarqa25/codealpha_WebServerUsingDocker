@@ -25,9 +25,11 @@ my-docker-web/
 2. **Build the Docker Image**
 
 docker build -t custom-nginx .
+
 3. **Run the Container**
 
 docker run -d -p 8080:80 --name myweb custom-nginx
+
 4. **View the Web Page**
 Open your browser and go to:
 
