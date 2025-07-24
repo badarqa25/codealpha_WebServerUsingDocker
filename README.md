@@ -18,8 +18,11 @@ This project demonstrates how to build and run a simple static website using **N
 
 my-docker-web/
 │
+
 ├── Dockerfile # Defines the custom Nginx image
+
 ├── index.html # Simple static webpage
+
 └── README.md # Project documentation
 
 2. **Build the Docker Image**
